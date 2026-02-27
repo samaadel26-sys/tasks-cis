@@ -1,0 +1,21 @@
+1- <input type="submit" value="Send">
+  <button type="submit">Send</button>
+2- <title>عنوان الصفحة</title>
+3- <h1> to <h6> 
+4- <p></P>
+5- <html lang="ar">
+6- 10 – 20
+7- use tabindex <div tabindex=" "></div>
+9- ARIA = Accessible Rich Internet Applications
+
+
+<div class="choose-skill" role="listbox" aria-label="Select a skill">
+  <div class="skill" role="option" aria-labelledby="skill1">Python</div>
+  <label id="skill1">Skill One</label>
+
+  <div class="skill" role="option" aria-labelledby="skill2">PHP</div>
+  <label id="skill2">Skill Two</label>
+
+  <div class="skill" role="option" aria-labelledby="skill3">JavaScript</div>
+  <label id="skill3">Skill Three</label>
+</div>
