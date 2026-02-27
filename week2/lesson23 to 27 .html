@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <form action="test.py" method="POST">
+    <label for="username">Username</label><br>
+    <input type="text" id="username" name="username"  required
+      placeholder="Enter your username">
+    <hr>
+    
+    <label for="password">Password</label><br>
+    <input type="password" id="password" name="password"
+      placeholder="Enter a strong password">
+    <hr>
+    
+    <label for="mobile">Mobile</label><br>
+    <input type="tel" id="mobile"  name="mobile"
+      pattern="^\+20\d{3}\s\(\d{3}\)\s\d{3}$"
+      placeholder="Ex: +20100 (234) 123">
+    <hr>
+
+    <label for="email">Email</label><br>
+    <input type="email" id="email" name="email" required
+      placeholder="Enter a valid email">
+    <hr>
+    
+    <label for="subject">Subject</label><br>
+    <input type="text" id="subject" name="subject"
+      placeholder="Write the subject of your message">
+    <hr>
+    
+    <input type="hidden" name="hidden_id" value="12345">
+    
+    <input type="reset" value="Empty Form">
+    <input type="submit" value="Send Data">
+
+  </form>
+
+</body>
+</html>
+
+
+
+
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Range Task</title>
+</head>
+<body>
+<input type="range"min="0"max="500"value="400"step="1" >
+</body>
+</html>
